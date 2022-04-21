@@ -11,7 +11,27 @@
             <li><a href="internal.html" target="_blank">→內部樣式表</a></li>
             <li><a href="external.html" target="_blank">→外部樣式表</a></li>
         </ul>
-        <p> git config --global user.name "chihuahua7777"</p>
-        <p>git config --global user.email 110111216@mail.aeust.edu.tw</p>
+        <p id="copy"> git config --global user.name "chihuahua7777"</p>
+        <p id="copy2">git config --global user.email 110111216@mail.aeust.edu.tw</p>
+        <button type="button" onclick="copyEvent('copy')">Copyname</button>
+        <button type="button" onclick="copyEvent('copy2')">Copymail</button>
+        <script>
+            function copyEvent(id)
+            {
+                var str = document.getElementById(id);
+                window.getSelection().selectAllChildren(str);
+                document.execCommand("Copyname")
+            }
+        </script>
+
+
+        <script>
+            function copyEvent(id)
+            {
+                var str = document.getElementById(id);
+                window.getSelection().selectAllChildren(str);
+                document.execCommand("Copymail")
+            }
+        </script>
     </body>
 </html>

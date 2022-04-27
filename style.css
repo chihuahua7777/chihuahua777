@@ -1,15 +1,40 @@
-
+@import url(normalize.css);
 body {
-    background-color: rgb(240, 191, 199);
+    background-color: rgb(235, 255, 206);
     color: rebeccapurple;
+    margin: 0px;
 }
 h1 {
-    color: green;
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid rgb(178, 169, 223);
+    background-color: rgb(152, 137, 226);
+    color: darkblue;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
 }
 
-#container{
+main{
     width: 80%;
-    height: 100%;
-    background-color: bisque;
+    background-color: #fff;
+    margin: 0px auto;
+    padding: 40px 80px;
+    border: 1px solid #f6bb9e;
+}
 
+h2{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted rgb(171, 241, 217);
+    border-left: 10px solid #d0e35b;
+    color: #6fbb9a;
+}
+
+.round{
+    border-radius: 50%;
+}
+h1,header,nav,footer{
+    text-align: center;
 }

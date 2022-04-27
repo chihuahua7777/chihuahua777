@@ -6,3 +6,10 @@ body {
 h1 {
     color: green;
 }
+
+#container{
+    width: 80%;
+    height: 100%;
+    background-color: bisque;
+
+}

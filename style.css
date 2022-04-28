@@ -6,7 +6,7 @@ body {
 }
 h1 {
     width: 300px;
-    margin: 40px auto;
+    margin: 0px auto;
     padding: 30px;
     border: 5px solid rgb(178, 169, 223);
     background-color: rgb(152, 137, 226);
@@ -32,9 +32,40 @@ h2{
     color: #6fbb9a;
 }
 
-.round{
+.p_round{
     border-radius: 50%;
 }
 h1,header,nav,footer{
     text-align: center;
+}
+.div_text_shadow
+{
+    text-shadow: 0px 1px 7px #333333;
+    border-radius: 50%;
+}
+
+#container{
+    background-image: url(img/bg.png);
+    background-repeat: repeat-x;
+}
+a{
+    color: #df4839;
+}
+a:hover{
+    color: #ff705b;
+    text-decoration:: none;
+}
+a[target="_blank"]::after{
+    content: url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+a[href]
+.more{
+    text-align: right;
+}
+.more::after{
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
 }

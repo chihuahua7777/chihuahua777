@@ -1,3 +1,4 @@
+@import url(normalize.css);
 .p_round{
     border-radius: 50%;
     border: 2px black solid;
@@ -37,4 +38,13 @@ main{
     font-size: 300%;
     text-align: left;
     line-height: 1;
+}
+
+#container{
+    background-image: url(img/彩虹貓.png);
+    background-repeat: repeat-x;
+}
+#img1{
+    width: 200px;
+    height: 200px;
 }

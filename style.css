@@ -53,7 +53,7 @@ a{
 }
 a:hover{
     color: #ff705b;
-    text-decoration:: none;
+    text-decoration: none;
 }
 a[target="_blank"]::after{
     content: url(img/ico_blank.png);

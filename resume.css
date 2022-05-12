@@ -1,0 +1,21 @@
+aside{
+    float: left;
+    background-color: rgb(233, 243, 155);
+    height: 300px;
+    width: 50%;
+}
+section{
+    float: right;
+    background-color: rgb(214, 155, 243);
+    height: 300px;
+    width: 50%;
+}
+footer{  
+    clear:both
+}
+table{
+    background-color: rgb(151, 186, 210);
+}
+.h1{
+    text-align: center;
+}

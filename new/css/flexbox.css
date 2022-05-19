@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
 body,nav ul{
@@ -74,4 +75,82 @@ nav a:hover{
     position: fixed;
     right: 50px;
     bottom: 20px;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap');
+body,nav ul{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+
+}
+nav{
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: red;
+    transition: background-color 0.4s linear,0.3s ease-in;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128,80%);
+}
+
+.chihuahua{
+    border-radius:100%
+}
+.tittle{
+    text-align: center; 
+}
+.tittle h2{
+    font-family: 'Koulen', cursive;
+}
+.tittle h1{
+    font-family: 'Noto Serif TC', serif;
+}
+
+.photolist ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+.photolist li{
+    list-style-type: none;
+    margin: 10px;
+}
+.photolist img{
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px grey;
+}
+.photolist .space{
+    width: 250px;
+}
+.gotop{
+    font-size: 50px;
+    color:black;
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+>>>>>>> 45b5d199f7d9f70f9e32654a166098552d884579
 }
